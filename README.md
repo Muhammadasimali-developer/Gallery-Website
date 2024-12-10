@@ -1,4 +1,5 @@
 Moments Captured, Stories Told 🌟
+
 This repository houses Moments Captured, Stories Told, a sleek and minimalist gallery website built entirely with HTML and CSS.
 
 💻 Technologies Used:
