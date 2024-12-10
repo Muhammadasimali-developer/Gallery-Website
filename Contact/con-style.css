@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 30px;
+  }
+  .navlogo a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  li {
+    padding: 0 15px;
+  }
+  .home{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    text-decoration: none;
+    color: white;
+}
+.photo{
+text-decoration: none;
+    color: white;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO SECTION */
+.herosec{
+  height: calc(100vh - 275px);
+}
+.herosech2{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 35px 30px;
+}
+.contactherosec{
+  color: black;
+  padding: 30px;
+}
+input, textarea{
+  width: 100%;
+  margin: 6px;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 4px;
+}
+.btn{
+  width: 90px;
+  height: 50px;
+  background: #000;
+  color: white;
+}
+
+
+
+/* footer */
+.footer{
+  background-color: black;
+  display: flex;
+}
+.logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-decoration: none;
+  padding: 15px 0 0 15px;
+  font-size: 30px;
+}
+.footerurl{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 20px 110px;
+}
+.page{
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+.footericon{
+  display: grid;
+  padding: 20px 0 0;
+}
+.ten li{
+  display: contents;
+
+}

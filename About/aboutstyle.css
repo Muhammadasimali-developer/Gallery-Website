@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* NAVBAR */
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 30px;
+  }
+  .navlogo a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  li {
+    padding: 0 15px;
+  }
+  .home{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    text-decoration: none;
+    color: white;
+}
+.photo{
+text-decoration: none;
+    color: white;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO SECTION */
+
+
+.aboutheroh1{
+ font-family: "Roboto", sans-serif;
+ text-align: center;
+ font-size: 40px;
+ margin: 30px 35px 30px;
+}
+.aboutheroP1{
+  text-align: justify;
+  margin: 10px 35px 30px;
+  font-family: "Poppins", sans-serif;
+}
+.heroimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.heroimg:hover{
+  box-shadow: 3px 3px 3px 3px black;
+  
+}
+.babarsign{
+font-family: "Alex Brush", cursive;
+text-align: center;
+margin: 20px auto 25px;
+}
+
+
+
+
+/* footer */
+
+.footer{
+  background-color: black;
+  display: flex;
+}
+.logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-decoration: none;
+  padding: 15px 0 0 15px;
+  font-size: 30px;
+}
+.footerurl{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 20px 110px;
+}
+.page{
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+.footericon{
+  display: grid;
+  padding: 25px 0 0;
+}
+.ten li{
+  display: contents;
+
+}
